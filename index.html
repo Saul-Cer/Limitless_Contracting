@@ -7,34 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="/scripts/jquery.min.js"></script>
     <link rel="stylesheet" href="app.css">
 
     <title>Limitless Contracting</title>
 </head>
 
 <body>
+    <section class="navbar-container-background">
 
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Limitless Contracting</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
 
-                    <!-- drop down menu, not needed for now -->
-                    <!-- <li class="nav-item dropdown">
+        <nav class="navbar navbar-expand-lg bg-light navbar-static-top navbar-custom">
+            <div class="container-fluid navbar-custom">
+                <a class=" navbar-brand" href="index.html">Limitless Contracting</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+
+                        <!-- drop down menu, not needed for now -->
+                        <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Dropdown link
@@ -45,10 +50,11 @@
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li> -->
-                </ul>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </section>
 
     <main>
         <header>
@@ -57,21 +63,29 @@
         </header>
         <!-- <img src="/Limitless_Contracting/website ready/Limitless_Contracting Photo.jpg"> -->
 
+    </main>
+
+    <section class="image-slide">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="website ready/Limitless_Contracting Photo.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-item active photo-Carousel">
+                    <img src="website ready/stairs_before.JPG" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
-                    <img src="website ready/house_wall_need_work.png" class="d-block w-100" alt="...">
+                <div class="carousel-item photo-Carousel">
+                    <img src="website ready/stairs_after.JPG" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
-                    <img src="website ready/interior_of_house.png" class="d-block w-100" alt="...">
+                <div class="carousel-item photo-Carousel">
+                    <img src="website ready/white_2door_dorrway_01.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item photo-Carousel">
+                    <img src="website ready/white_2door_dorrway_02.JPG" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item photo-Carousel">
+                    <img src="website ready/white_2door_dorrway_03.JPG" class="d-block w-100" alt="...">
                 </div>
             </div>
         </div>
-
-    </main>
+    </section>
 
     <section class="quote">
         <h2>Fill out Form and describe what serice you would like</h2>

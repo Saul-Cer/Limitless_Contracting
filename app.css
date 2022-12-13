@@ -1,10 +1,60 @@
-.navbar {
-    background-color: gold;
+body {
+    /* background-color: #CBF3F0;
+    color: #e69d1f; */
+    background-color: #ffd380;
+    color: #003f5c;
 }
 
+.navbar {
+    background-color: #CBF3F0;
+}
 
 main {
-    background-color: gold;
+    background-color: #FFBF69;
 }
 
+.navbar-custom {
+    background-color: #CBF3F0;
+    object-fit: fill;
+    border: 0px, 0px;
+    margin: 0px, 0px;
+}
+
+.navbar-container-background {
+    background-color: #CBF3F0;
+}
+
+
+.photo-Carousel {
+    /* height: 50vh; */
+    object-fit: fill;
+    /* width: 100vw; */
+}
+
+.profile-Pic {
+    height: 250px;
+    width: 250px;
+}
+
+/* Nav Bar */
+
+
+/* .scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+} */
+
 /* Limitless Contracting name is already used and copy righted */
+
+/* Colors Pallete
+1: #FF9F1C - dark orange
+2: #FFBF69 - light orange
+3: #FFFFFF - white
+4: #CBF3F0 - light aqua
+5: #2EC4B6 - dark aqua
+
+
+
+
+*/
